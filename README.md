@@ -30,7 +30,7 @@ This **Dispatch Component** is a flexible and reusable tool for implementing **R
 
 | **Name**          | **Type**   | **Description**                                                              |
 |-------------------|------------|------------------------------------------------------------------------------|
-| `gblStoreIn`      | **Text** | The current global store in JSON format, representing the app’s state.       |
+| `gblStoreIn`      | **Record** | The current global store, representing the app’s state.       |
 | `DispatchAction`  | **Text**   | The action to be executed (e.g., `"MARK_SHIPPED"`).                          |
 | `DispatchPayload` | **Text**   | A JSON payload containing additional data required for the action.           |
 
